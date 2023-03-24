@@ -64,6 +64,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     auto scene = HelloWorld::createScene();
+    auto a = 100;
 
     director->runWithScene(scene);
 
